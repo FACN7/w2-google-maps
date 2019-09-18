@@ -1,67 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-
-</head>
-<body>
-
+  </head>
+  <body>
     <section class="jambo">
-        <div class="jamoHeader">
-            <h1>Distance between cities App</h1>
-            <h2>Our app will help you calculate travelling distances</h2>
-        
-        </div>
+      <div class="jamoHeader">
+        <h1>Distance between cities App</h1>
+        <h2>Our app will help you calculate travelling distances</h2>
+      </div>
     </section>
 
     <section class="form">
-        
-
-<table id="form-table">
-<tr>
-    <th>
+      <table id="form-table">
+        <tr>
+          <th>
             <label for="#">From: </label>
-    </th>
-    <th>
-            <input type="text" placeholder="Origin">
+          </th>
+          <th>
+            <input type="text" placeholder="Origin" />
+          </th>
+        </tr>
 
-    </th>
-</tr>
-
-<tr>
-        <th>
-                <label for="#">To: </label>
-            </th>
-        <th>
-                <input type="text" placeholder="Destination">
-    
-        </th>
-    </tr>
-
-</table>
-
-
-
+        <tr>
+          <th>
+            <label for="#">To: </label>
+          </th>
+          <th>
+            <input type="text" placeholder="Destination" />
+          </th>
+        </tr>
+      </table>
     </section>
-    
+
     <div class="search-button">
-            <input type="submit" class="search" value="SEARCH" />
-
+      <input
+        type="submit"
+        class="search"
+        value="search"
+        onclick="calcRoute()"
+      />
     </div>
 
-
-
-
-    <div class="map">
-        
+    <div class="container">
+      <div id="googleMap"></div>
+      <div id="output"></div>
     </div>
 
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnx_jKVRm-wUYMxLY1rucxOhFCjJ7zRxA&libraries=places"></script>
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
