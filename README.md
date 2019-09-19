@@ -44,3 +44,8 @@ For example, if the user insert location that dosn't exist.
 **Link for out site**
 https://facn7.github.io/w2API-Moses-Mohamad/   
    
+ **For cloning use this:**
+ **Link for out site**
+https://facn7.github.io/w2API-Moses-Mohamad/   
+   
+https://github.com/FACN7/w2API-Moses-Mohamad.git
