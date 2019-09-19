@@ -19,19 +19,19 @@
       <table id="form-table">
         <tr>
           <th>
-            <label for="#">From: </label>
+            <label for="From">From: </label>
           </th>
           <th>
-            <input type="text" placeholder="Origin" />
+            <input id="from" type="text" placeholder="Origin" />
           </th>
         </tr>
 
         <tr>
           <th>
-            <label for="#">To: </label>
+            <label for="To">To: </label>
           </th>
           <th>
-            <input type="text" placeholder="Destination" />
+            <input id="to" type="text" placeholder="Destination" />
           </th>
         </tr>
       </table>
@@ -49,8 +49,9 @@
     <div class="container">
       <div id="googleMap"></div>
       <div id="output"></div>
+      <div id="stam"></div>
     </div>
-
+    
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnx_jKVRm-wUYMxLY1rucxOhFCjJ7zRxA&libraries=places"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
